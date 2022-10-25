@@ -14,7 +14,7 @@ const Quize = ({ step, question, onClickVariants }) => {
       <h1>{question.title}</h1>
       <ul>
         {question.variants.map((item, index) => (
-          <li key={item} onClick={() => onClickVariants(index)}>
+          <li class="btn third" key={item} onClick={() => onClickVariants(index)}>
             {item}
           </li>
         ))}

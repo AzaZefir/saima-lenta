@@ -13,7 +13,7 @@ const Result = ({ correct }) => {
         Правильно {correct} из {questions.length}
       </h1>
       <a href="/">
-        <button class="button-64" role="button">
+        <button class="button-64">
           <span class="text">Начать с начала</span>
         </button>
       </a>
