@@ -88,9 +88,9 @@ export const questions = [
   {
     title: "Как правильно задать ссылку на адрес электронной почты:",
     variants: [
-      '<a href="myrusakov@gmail.com">Написать</a>',
-      '<a href="email:myrusakov@gmail.com">Написать</a>',
-      '<a href="mailto:myrusakov@gmail.com">Написать</a>',
+      '<a href="myrusakov @gmail.com"> Написать</a>',
+      '<a href="email:myrusakov @gmail.com"> Написать</a>',
+      '<a href="mailto:myrusakov @gmail.com"> Написать</a>',
     ],
     correct: 1,
   },
@@ -105,7 +105,7 @@ export const questions = [
       "Напишите код HTML, который бы создавал кнопку отправки заполненной формы. Имя кнопки – ОК.",
     variants: [
       '<input type="ОК" value="Submit"/>',
-      ' <p> input type="submit" value="OK"< /p>',
+      '<p> input type="submit" value="OK"< /p>',
       '<input type="submit" value="ОК"/>',
     ],
     correct: 2,
@@ -124,7 +124,7 @@ export const questions = [
     title: "Что содержит в себе атрибут href?",
     variants: [
       "Имя страницы, на которую произойдет перенаправление",
-      " URL страницы, на которую произойдет перенаправление",
+      "URL страницы, на которую произойдет перенаправление",
       "Указание на то, где будет открываться новая страница: в том же или новом окне",
     ],
     correct: 1,
@@ -407,7 +407,7 @@ export const questions = [
   },
   {
     title: "Какое из этих значений НЕ может быть значением для font-size?",
-    variants: [" 50%", "4", "2mm"],
+    variants: ["50%", "4", "2mm"],
     correct: 1,
   },
   {
@@ -525,7 +525,7 @@ export const questions = [
     variants: [
       "<link rel='stylesheet' type='text/css' href='mystyle.css'>",
       "<style src='mystyle.css'>",
-      "<stylesheet>mystyle.css</stylesheet>",
+      "<stylesheet>mystyle.css </stylesheet>",
     ],
     correct: 0,
   },
