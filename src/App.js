@@ -3,6 +3,7 @@ import Quize from "./components/quize/Quize";
 import Result from "./components/result/Result";
 import { useState } from "react";
 import { questions } from "./db/db";
+import { Header } from "./components/header/Header";
 
 function App() {
   const [step, setStep] = useState(0);
@@ -18,6 +19,7 @@ function App() {
   
   return (
     <div className="App">
+      {/* <Header/> */}
       {step !== questions.length ? (
         <Quize
           step={step}

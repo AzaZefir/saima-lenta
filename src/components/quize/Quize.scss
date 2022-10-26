@@ -1,7 +1,7 @@
 .quize__wrapper {
   width: 50%;
   margin: auto;
-  height: 75vh;
+  height: 85vh;
   border-radius: 20px;
   background-color: rgb(226, 221, 215);
   box-shadow: rgba(226, 221, 215, 0.4) 5px 5px,
@@ -70,8 +70,10 @@
 @media (max-width: 576px) {
   .quize__wrapper {
     width: 90%;
-    height: 80%;
-    padding: 20px 0 50px;
+    height: 100%;
+    padding: 20px 0 0;
+    box-shadow: none;
+    margin: 50px 0;
   }
   .quize__wrapper h1 {
     padding: 10px 0;
