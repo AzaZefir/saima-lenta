@@ -18,7 +18,7 @@ export const questions = [
     variants: [
       "HyperText Markup Language",
       "HeadText Modulation Language",
-      " HeadingText Mode Language",
+      "HeadingText Mode Language",
     ],
     correct: 0,
   },
@@ -51,11 +51,11 @@ export const questions = [
   },
   {
     title:
-      "Как сделать чтобы ссылка сайта открывалась в новом окне? Как сделать чтобы все ссылки открывались в новом окне?",
+      "Как сделать чтобы ссылка сайта открывалась в новом окне?",
     variants: [
-      "Первое через  атрибут target, второе указать таргет для всех тегов <a> или в начале разметки написать <base target=’’>",
-      "Первое указать в <src> адрес ссылки, второе указать <src> в начале разметки с адресом ссылки",
-      "Первое указать в <target> адрес ссылки, второе указать <target> в начале разметки с адресом ссылки",
+      "Через  атрибут target",
+      "Указать в <src> адрес ссылки",
+      "Указать в <target> адрес ссылки",
     ],
     correct: 0,
   },
@@ -67,17 +67,17 @@ export const questions = [
   },
   {
     title:
-      "Василию требуется вывести на страницу код, который он написал на языке Java. Какой тег для этого ему необходимо использовать?",
-    variants: ["<code>", "<java>", "<pre>"],
+      "Василию требуется вывести на страницу код, который он написал на языке JavaScript. Какой тег для этого ему необходимо использовать?",
+    variants: ["<code>", "<script>", "<pre>"],
     correct: 0,
   },
   {
     title: "Какого тега НЕ существует:",
-    variants: ["<em>", "<pre>", "<adress>"],
+    variants: ["<phone>", "<pre>", "<address>"],
     correct: 0,
   },
   {
-    title: "Какой из представленных вариантов является валидным по XHTML 1.1:",
+    title: "Какой из представленных вариантов является валидным",
     variants: [
       '<img src="foto.jpg" title="Изображение" />',
       '<img src="foto.jpg" alt="Изображение" />',
@@ -92,13 +92,13 @@ export const questions = [
       '<a href="email:myrusakov @gmail.com"> Написать</a>',
       '<a href="mailto:myrusakov @gmail.com"> Написать</a>',
     ],
-    correct: 1,
+    correct: 2,
   },
   {
     title:
-      "Какой тег нужно добавить для переноса строки, сохранив при этом валидность XHTML 1.1?",
+      "Какой тег нужно добавить для переноса строки, сохранив при этом валидность HTML5?",
     variants: ["<hr>", "<br>", "<br />"],
-    correct: 2,
+    correct: 1,
   },
   {
     title:
@@ -112,7 +112,7 @@ export const questions = [
   },
   {
     title:
-      " Какой тэг при создании страницы добавляет имя страницы, которое будет отображаться в строке заголовка в браузере пользователя?",
+      "Какой тэг при создании страницы добавляет имя страницы, которое будет отображаться в строке заголовка в браузере пользователя?",
     variants: [
       "<title> … </title>",
       "<header> … </header>",
@@ -144,11 +144,11 @@ export const questions = [
     correct: 0,
   },
   {
-    title: "О чем говорит следующая запись: <form action='url' method='POST'>?",
+    title: "Разница между атрибутами id и class? ",
     variants: [
-      "Создается форма, при заполнении которой вводимые данные будут отображаться",
-      "Создается форма, при заполнении которой вводимые данные не будут отображаться",
-      "Создается форма, которая будет служить для внесения информации, представленной в виде ссылки (URL)",
+      "class указывает на определенный элемент, id на группу элементов",
+      "Id указывает на определенный элемент, class на группу элементов",
+      "нет разницы",
     ],
     correct: 1,
   },
@@ -178,16 +178,16 @@ export const questions = [
     correct: 2,
   },
   {
-    title: "Неотображаемые комментарии в HTML задаются следующим образом:",
+    title: "Комментарии в HTML задаются следующим образом:",
     variants: [
-      "<! - Your comment -!>",
+      "<! -- Your comment --!>",
       "<! - - Your comment - -!>",
       "<!p> Your comment </!p>",
     ],
     correct: 0,
   },
   {
-    title: "Укажите, какой элемент HTML 5 отвечает за воспроизведение видео",
+    title: "Укажите, какой элемент HTML5 отвечает за воспроизведение видео",
     variants: ["<video>", "<media>", "<movie>"],
     correct: 0,
   },
@@ -213,14 +213,14 @@ export const questions = [
   },
   {
     title: "HTML-документ может иметь расширения:",
-    variants: [".html", ".html или .htm", ".html или .txt"],
-    correct: 1,
+    variants: [".html", ".xml", ".txt"],
+    correct: 0,
   },
   {
     title: "Укажите корректную запись для создания чек-бокса:",
     variants: [
       "<input checkbox>",
-      "<type input=”checkbox”>",
+      "<type input=”checkbox”/>",
       "<input type=”checkbox”>",
     ],
     correct: 2,
@@ -324,7 +324,7 @@ export const questions = [
   },
   {
     title: "Какой стиль отвечает за прозрачность?",
-    variants: ["z-index", "rgba", "opacity"],
+    variants: ["z-index", "rgb", "opacity"],
     correct: 2,
   },
   {
@@ -335,8 +335,8 @@ export const questions = [
   },
   {
     title:
-      "C помощью каких стилей Flexbox можно расцентрировать объект по поперечной оси?",
-    variants: ["justify-content", "align-item", "align-self"],
+      "Укажите устаревшие тэги для HTML5?",
+    variants: ["<ul>, <audio>, <pre>", "<applet>, <blink>, <u>", "<code>, <s>, <embed>"],
     correct: 1,
   },
   {
@@ -363,7 +363,7 @@ export const questions = [
       "слева, сверху и снизу, справа",
       "сверху, справа и слева, снизу",
     ],
-    correct: 0,
+    correct: 2,
   },
   {
     title: "Какое из значений свойств display делает HTML-элемент блочным?",
@@ -403,7 +403,7 @@ export const questions = [
     title:
       "Какой селектор позволяет выбрать все элементы div имеющие атрибут id='wrap'?",
     variants: ["div id.wrap", "div#wrap", "div.wrap"],
-    correct: 0,
+    correct: 1,
   },
   {
     title: "Какое из этих значений НЕ может быть значением для font-size?",
@@ -447,8 +447,8 @@ export const questions = [
     correct: 1,
   },
   {
-    title: "Как объявить стиль для печати?",
-    variants: ["print { }", ".print { }", "@media print { }"],
+    title: "Как объявить медиа запрос?",
+    variants: ["media(){ }", ".media(){ }", "@media(){ }"],
     correct: 2,
   },
   {
@@ -523,7 +523,7 @@ export const questions = [
   {
     title: "Укажите правильную ссылку на внешнюю таблицу стилей:",
     variants: [
-      "<link rel='stylesheet' type='text/css' href='mystyle.css'>",
+      "<link rel='stylesheet' href='mystyle.css'>",
       "<style src='mystyle.css'>",
       "<stylesheet>mystyle.css </stylesheet>",
     ],
@@ -550,7 +550,7 @@ export const questions = [
     variants: [
       "h2.all {background-color:#FFFFFF;}",
       "h2 {background-color:#FFFFFF;}",
-      "all.h2 {background-color:#FFFFFF;}",
+      ".h2>h2 {background-color:#FFFFFF;}",
     ],
     correct: 1,
   },
@@ -592,7 +592,7 @@ export const questions = [
   {
     title: "Какое значение по умолчанию у свойства position?",
     variants: ["absolute", "relative", "static"],
-    correct: 1,
+    correct: 2,
   },
   {
     title: "Какое свойство используется для изменения шрифта элемента?",
@@ -621,13 +621,13 @@ export const questions = [
   },
   {
     title:
-      "Какие из вариантов записи свойства background-position сотступ отступ сверху 15px, слева 10px?",
+      "Какие из вариантов записи свойства background-position сделают отступ сверху 15px, слева 10px?",
     variants: [
       "background-position: left 10px top 15px;",
       "background-position: left 15px;",
-      "background-position: 10px 15px;",
+      "background-position: 10px 15px 10px 15px",
     ],
-    correct: 2,
+    correct: 0,
   },
   {
     title: "Какое свойство влияет на размер фонового изображения?",
@@ -636,11 +636,11 @@ export const questions = [
   },
   {
     title:
-      "Какая запись идентична записи @media all and (min-width:800px) { … }?",
+      "Какая запись идентична записи @media all and (max-width:800px) { … }?",
     variants: [
-      "@media (min-width:800px) { … }",
+      "@media (max-width:800px) { … }",
       "@media all and (orientation: portrait) { … }",
-      "нет правильного ответа",
+      "@media (all:max-width:800px) { … }",
     ],
     correct: 0,
   },
@@ -692,6 +692,6 @@ export const questions = [
       "Это невозможно в CSS",
       "text-transform: capitalize;",
     ],
-    correct: 0,
+    correct: 2,
   },
 ];
