@@ -50,8 +50,7 @@ export const questions = [
     correct: 0,
   },
   {
-    title:
-      "Как сделать чтобы ссылка сайта открывалась в новом окне?",
+    title: "Как сделать чтобы ссылка сайта открывалась в новом окне?",
     variants: [
       "Через  атрибут target",
       "Указать в <src> адрес ссылки",
@@ -141,7 +140,7 @@ export const questions = [
   {
     title: "Укажите тэг, который соответствует элементу списка:",
     variants: ["<ol>", "<li>", "<ul>"],
-    correct: 0,
+    correct: 1,
   },
   {
     title: "Разница между атрибутами id и class? ",
@@ -155,7 +154,7 @@ export const questions = [
   {
     title:
       "Какое значение следует задать атрибуту type, чтобы оно превращало входной тэг в форму отправки?",
-    variants: ["Submit", "Checkbox", "Radiobutton"],
+    variants: ["Submit", "Checkbox", "RadioButton"],
     correct: 0,
   },
   {
@@ -180,8 +179,8 @@ export const questions = [
   {
     title: "Комментарии в HTML задаются следующим образом:",
     variants: [
+      "<! -- Your comment -->",
       "<! -- Your comment --!>",
-      "<! - - Your comment - -!>",
       "<!p> Your comment </!p>",
     ],
     correct: 0,
@@ -246,7 +245,7 @@ export const questions = [
     variants: [
       "Путь к изображению указан не полностью ",
       "Вместо href необходимо прописывать src",
-      "Нужен зарывающий тег img",
+      "Нужен закрывающий тег img",
     ],
     correct: 1,
   },
@@ -334,9 +333,12 @@ export const questions = [
     correct: 0,
   },
   {
-    title:
-      "Укажите устаревшие тэги для HTML5?",
-    variants: ["<ul>, <audio>, <pre>", "<applet>, <blink>, <u>", "<code>, <s>, <embed>"],
+    title: "Укажите устаревшие тэги для HTML5?",
+    variants: [
+      "<ul>, <audio>, <pre>",
+      "<applet>, <blink>, <u>",
+      "<code>, <s>, <embed>",
+    ],
     correct: 1,
   },
   {
