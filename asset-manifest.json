@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/quize/static/css/main.464f9450.css",
-    "main.js": "/quize/static/js/main.024fef54.js",
-    "index.html": "/quize/index.html",
-    "main.464f9450.css.map": "/quize/static/css/main.464f9450.css.map",
-    "main.024fef54.js.map": "/quize/static/js/main.024fef54.js.map"
+    "main.css": "/saima-lenta/static/css/main.464f9450.css",
+    "main.js": "/saima-lenta/static/js/main.0fd93a37.js",
+    "index.html": "/saima-lenta/index.html",
+    "main.464f9450.css.map": "/saima-lenta/static/css/main.464f9450.css.map",
+    "main.0fd93a37.js.map": "/saima-lenta/static/js/main.0fd93a37.js.map"
   },
   "entrypoints": [
     "static/css/main.464f9450.css",
-    "static/js/main.024fef54.js"
+    "static/js/main.0fd93a37.js"
   ]
 }
